@@ -1,4 +1,3 @@
-/* Գլխավոր վերնագիր */
 .main-title {
     font-size: 36px;
     font-family: Arial, sans-serif;
@@ -6,14 +5,12 @@
     text-transform: uppercase;
 }
 
-/* Ենթավերնագիր */
 .section-title {
     font-size: 24px;
     font-family: Georgia, serif;
     letter-spacing: 2px;
 }
 
-/* Առաջին պարբերություն */
 .text-one {
     font-size: 18px;
     font-family: "Times New Roman", serif;
@@ -21,15 +18,14 @@
     text-align: justify;
 }
 
-/* Երկրորդ պարբերություն */
+
 .text-two {
     font-size: 16px;
-    font-weight: bold; /* կամ 700/800 */
+    font-weight: bold; 
     font-style: italic;
     word-spacing: 6px;
 }
 
-/* Երրորդ պարբերություն */
 .text-three {
     font-size: 20px;
     letter-spacing: 3px;
@@ -37,44 +33,39 @@
     text-align: right;
 }
 
-/* Հղում */
 .main-link {
     font-size: 18px;
     font-family: Verdana, sans-serif;
-    text-decoration: underline; /* Տեսանելի ձևավորում */
-    text-decoration-style: double; /* Լրացուցիչ գծանշում */
+    text-decoration: underline; 
+    text-decoration-style: double; 
 }
 
-/* Pre-text բլոկ */
 .pre-text {
     white-space: pre;
 }
 
-/* Ընդհանուր բլոկներ (.box) */
+
 .box {
     width: 100%;
     height: 150px;
-    margin-bottom: 10px; /* Տեսողական առանձնացման համար */
+    margin-bottom: 10px; 
 }
 
-/* Առաջին բլոկ */
 .box-one {
-    background-color: #f0f0f0; /* Ցանկացած գույն */
+    background-color: #f0f0f0; 
 }
 
-/* Երկրորդ բլոկ */
 .box-two {
-    background-image: url('your-image.jpg'); /* Տեղադրեք ձեր նկարի հասցեն */
+    background-image: url('your-image.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-/* Երրորդ բլոկ */
 .box-three {
-    background-image: url('your-pattern.png'); /* Տեղադրեք ձեր նկարի հասցեն */
+    background-image: url('your-pattern.png'); 
     background-repeat: repeat;
     background-attachment: fixed;
     padding: 20px;
-    background-clip: content-box; /* Ֆոնը կսահմանափակվի ներքին բացատներով */
+    background-clip: content-box; 
 }
