@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://postium.ru/wp-content/uploads/2024/03/istoriya-dodo-picca.jpeg);
+}
+
+button{
+    border-radius: 5px;
+    border: 1px black solid;
+    transition: 1s;
+        background-color: black;
+    color: white;
+
+}
+button:hover{
+    border-radius: 50px;
+    border: 1px black solid;
+    transition: 0.5s;
+    transition: 1s;
+    margin-left: 30px;
+    text-align: start;
+}
+.secondbut:hover{
+    border-radius: 50px;
+    border: 1px black solid;
+    transition: 0.5s;
+    transition: 1s;
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.secondbut{
+    width: 125px;
+    transition: 1s;
+}
+
