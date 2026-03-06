@@ -1,0 +1,31 @@
+body {
+    background: #0D1335;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  div {
+    position: absolute;
+    width: 230px;
+    height: 70px;
+    border: 10px solid;
+    border-radius: 50%;
+  }
+  .w {
+    border-color: #FBFAE2;
+  }
+  .g {
+    border-color: #4FA07B;
+    transform: rotate(60deg);
+  }
+  .o {
+    border-color: #DC6638;
+    transform: rotate(-60deg);
+  }
+  .c {
+    width: 40px;
+    height: 40px;
+    background: #73C6EA;
+    border: none;
+  }
