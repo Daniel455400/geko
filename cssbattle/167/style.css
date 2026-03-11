@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background: #0D1335; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ring {
+  width: 220px;
+  height: 80px;
+  border: 10px solid;
+  border-radius: 50%; 
+  position: absolute;
+}
+
+.white {
+  border-color: #FBFAE2;
+}
+
+.green {
+  border-color: #4FA07B;
+  transform: rotate(60deg);
+}
+
+.orange {
+  border-color: #DC6638;
+  transform: rotate(-60deg);
+}
+
+.nucleus {
+  width: 50px;
+  height: 50px;
+  background: #73C6EA;
+  border-radius: 50%;
+  position: absolute;
+}

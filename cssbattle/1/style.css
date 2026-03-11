@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: #b5e0ba;
+}
+
+.container{
+    background-color: #5d3a3a;
+    width: 400px;
+    height: 300px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    background: #62306D;
+    margin: 0;
+    width: 400px;
+    height: 300px;
+  }
+  div {
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    background: #F7EC7D;
+  }
+  .a {
+    top: 140px;
+    left: 50px;
+    border-radius: 0 0 50px 50px; 
+  }
+  .b {
+    top: 40px;
+    left: 150px;
+    border-radius: 50px 50px 0 0;
+  }

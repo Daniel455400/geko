@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background: #33499F; 
+  position: relative;
+  overflow: hidden;
+}
+
+.white {
+  position: absolute;
+  background: #FFFFFF;
+  width: 100%;
+  height: 80px;
+  top: 110px;
+}
+.white::after {
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+  width: 80px;
+  height: 300px;
+  left: 90px;
+  top: -110px;
+}
+
+.red {
+  position: absolute;
+  background: #DE3832;
+  width: 100%;
+  height: 40px;
+  top: 130px;
+}
+.red::after {
+  content: '';
+  position: absolute;
+  background: #DE3832;
+  width: 40px;
+  height: 300px;
+  left: 110px;
+  top: -130px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background: #191919; 
+  position: relative;
+  overflow: hidden;
+}
+
+.dot {
+  width: 40px;
+  height: 40px;
+  background: #F6E59C; 
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-shadow: 
+    70px 0 0 0 #F6E59C, 140px 0 0 0 #F6E59C, 210px 0 0 0 #F6E59C, 
+    0 70px 0 0 #F6E59C, 70px 70px 0 0 #F6E59C, 140px 70px 0 0 #F6E59C, 
+    0 140px 0 0 #F6E59C, 70px 140px 0 0 #F6E59C, 
+    0 210px 0 0 #F6E59C; 
+}
