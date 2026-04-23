@@ -1,0 +1,6 @@
+body { background: #121212; color: white; display: flex; justify-content: center; }
+.seats-grid { display: grid; grid-template-columns: repeat(8, 40px); gap: 10px; margin: 20px; }
+.seat { width: 40px; height: 40px; border-radius: 8px; cursor: pointer; transition: 0.3s; background: rgba(255,255,255,0.1); }
+.seat.selected { background: #00ff88; }
+.seat.occupied { background: #ff4444; cursor: not-allowed; }
+button { padding: 10px 20px; background: #6200ea; border: none; color: white; border-radius: 5px; cursor: pointer; }
