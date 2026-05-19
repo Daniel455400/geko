@@ -1,0 +1,9 @@
+.form-box {
+  margin: 20px auto;
+  padding: 15px;
+  width: 250px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
